@@ -4,8 +4,13 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
+.main{
+  max-width: 1080px;
+  margin: 0 auto;
+}
 
 .picture{
   max-height: 60rem;

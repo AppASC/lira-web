@@ -17,8 +17,8 @@ import { Restaurant } from "../src/components/Restaurant";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div>
-        <Header />
+      <Header />
+      <div className={styles.main}>
         <Carousel
           autoPlay
           showArrows={true}
