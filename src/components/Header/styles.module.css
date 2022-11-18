@@ -1,39 +1,33 @@
-.container{
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #52665A;
-  width: 100%;
-  padding: 0 3rem;
-  min-height: 8rem;
+  background-color: #52665a;
+  padding: 3rem;
+  width: 100vw;
 }
 
-.borderText {
-  padding: 0.5rem;
-  border: 1px solid #EBEBEB;
+.title {
+  font-size: 4rem;
+  color: #ebebeb;
+  transition: font-size 1s;
   text-decoration: none;
 }
 
-.title{
-  font-size: 4rem;
-  color: #EBEBEB;
-  transition: font-size 1s;
-}
-
-.logo{
+.logo {
   height: 7rem;
   width: 6rem;
   transition: transform 1s;
 }
-.nav{
+.nav {
   display: flex;
   justify-content: flex-end;
 }
 
-.navItem{
+.navItem {
   font-size: 2.5rem;
   text-decoration: none;
-  color: #EBEBEB;
+  color: #ebebeb;
   margin-left: 2rem;
   border-radius: 1rem;
   text-decoration: overline 0.2rem rgba(255, 255, 255, 0);
@@ -41,48 +35,45 @@
 }
 
 .navItem:hover {
-  text-decoration-color: #EBEBEB;
+  text-decoration-color: #ebebeb;
 }
-.svg{
+.svg {
   font-size: 5rem;
 }
-.button{
+.button {
   height: 56px;
   background-color: transparent;
   width: 15rem;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   display: flex;
   align-items: center;
   font-size: 1.6rem;
-  color: #EBEBEB;
+  color: #ebebeb;
   cursor: pointer;
   margin: 4rem;
-  padding:1rem;
+  padding: 1rem;
   border-radius: 1rem;
   transition: background 1s;
 }
 
-.button:hover{
-background-color: #E83F5B;
-border:none;
+.button:hover {
+  background-color: #e83f5b;
+  border: none;
 }
 
-
 @media screen and (max-width: 768px) {
-    .container{
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      justify-content: space-evenly;
-      height: auto;
-      padding: 2rem 0;
-    }
-    .nav{
-      flex: 0.5;
-      flex-direction: column;
-    }
-    .title {
-      font-size: 3rem;
-      color: #EBEBEB;
-    }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2rem;
   }
+  .nav {
+    flex: 0.5;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 3rem;
+    color: #ebebeb;
+  }
+}

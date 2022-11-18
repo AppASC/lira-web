@@ -1,18 +1,17 @@
 .container {
   width: 100vw;
-  height: 100VH;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-
+  align-items: center;
 }
 
-.main{
+.main {
   max-width: 1080px;
-  margin: 0 auto;
+  width: 100vw;
 }
 
-.picture{
+.picture {
   max-height: 60rem;
   object-fit: cover;
 }

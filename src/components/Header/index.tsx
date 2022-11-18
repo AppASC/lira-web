@@ -5,8 +5,8 @@ import styles from "./styles.module.css";
 export function Header() {
   return (
     <div className={styles.container}>
-      <Link className={styles.borderText} href="#">
-        <h1 className={styles.title}>Família Lira</h1>
+      <Link href="#" className={styles.title}>
+        Família Lira
       </Link>
       <nav className={styles.nav}>
         <Link className={styles.navItem} href="#park" scroll={false}>
