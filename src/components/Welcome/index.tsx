@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 
-import ImageWelcome from "../../assets/welcome.jpg";
+import ImageWelcome from "../../assets/joseLira.jpg";
 
 export function Welcome() {
   return (
