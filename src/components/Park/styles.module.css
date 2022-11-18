@@ -19,6 +19,13 @@
   color: #ebebeb;
 }
 
+.description {
+  text-align: justify;
+  font-size: 1.6rem;
+  color: #ebebeb;
+  margin-top: 1rem;
+}
+
 .activitiesContainer {
   display: flex;
   width: 100%;

@@ -43,7 +43,7 @@ const activities: ActivitiesProps[] = [
     id: 6,
     path: require("../../assets/activities/standup.jpeg"),
     alt: "Imagem",
-    legend: "Standup",
+    legend: "Stand Up",
   },
   {
     id: 7,
@@ -63,6 +63,10 @@ export function Park() {
   return (
     <div className={styles.container}>
       <h2 className={styles.subtitle}>Lira Eco Parque</h2>
+      <p className={styles.description}>
+        Um lugar ecológico para quem deseja fugir da cidade e descansar no
+        conforto da natureza.
+      </p>
       <h1 className={styles.title}>Conheça nossas atrações!</h1>
       <div className={styles.activitiesContainer}>
         {activities.map((activity) => (

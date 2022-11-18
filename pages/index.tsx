@@ -13,6 +13,7 @@ import { Welcome } from "../src/components/Welcome";
 import { Park as ParkPage } from "../src/components/Park";
 import { Footer } from "../src/components/Footer";
 import { Restaurant } from "../src/components/Restaurant";
+import { RestaurantHotel } from "../src/components/RestaurantHotel";
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         </div>
         <div id="restaurant">
           <Restaurant />
+          <RestaurantHotel />
         </div>
       </div>
 
